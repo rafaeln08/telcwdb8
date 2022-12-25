@@ -16,20 +16,24 @@
 
 
 .showcase-container {
-    padding: 9rem;
+    padding-top: 17rem;
+    align-content: center;
+    align-items: center;
+    al
 }
 
 .nav-wrapper {
-    
+    padding-top: 1.5rem;
 }
 
+.h3-1 {
+    padding-top: .5rem;
+    margin: 0;
+}
 .material1 {
-    margin-right: 0px;
-    float: right;
 }
 
 .collapsible-body {
-    background-color: grey-lighten-3;
     position: relative;
 }
 
@@ -37,10 +41,8 @@
     
     text-align: right;
 }
-.material1 {
-    right: 50px;
-    position: absolute;
-}
+
+
 
 .container1 {
     display:grid;
@@ -83,3 +85,7 @@
 .contact1 {
     margin-left: 40px
 }
+
+@media (max-width: 767px)
+div#n2-ss-17 .n-uc-13dfa7589efe9-inner {
+    padding: 40px 10px 70px 10px;}
